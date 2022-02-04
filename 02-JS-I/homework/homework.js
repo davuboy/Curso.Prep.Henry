@@ -164,8 +164,7 @@ function redondearHaciaArriba(num) {
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
-  Math.random();
-  // -------------------- INTENTAR MAÑANA ----------------
+ return Math.random();
 }
 
 function esPositivo(numero) {
@@ -197,9 +196,7 @@ function combinarNombres(nombre, apellido) {
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
    
-  var nombres = "Soy" + " " + "Henry";
-  return nombres;
-  // -------------------- INTENTAR MAÑANA ----------------
+  return nombre + " " + apellido;
     
 }
 
@@ -207,11 +204,9 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  var nombre = "Aaron";
-  var saludo = "Hola" +  nombre + "!";
-  return saludo;
-  // -------------------- INTENTAR MAÑANA ----------------
-}
+  
+  return "Hola " + nombre + "!";
+ }
 
 function obtenerAreaRectangulo(alto, ancho) {
   // Retornar el area de un rectángulo teniendo su altura y ancho
