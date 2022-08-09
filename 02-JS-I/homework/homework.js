@@ -29,10 +29,11 @@ function devolverString(str) {
   // "Return" la string provista: str
   // Tu código: 
   return str;
-  
 }
+devolverString();
 
-function suma(x, y) {
+
+function suma(x,y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
@@ -40,11 +41,14 @@ function suma(x, y) {
   
 }
 
+
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
    return x - y;
 }
+
+
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
@@ -52,22 +56,25 @@ function multiplica(x, y) {
   return x * y;
 }
 
+
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
    return x / y;
 }
 
+
 function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (x===y){
-    return true;
-  } else {
-      return false;
-    }
-  }
+if (x===y){
+  return true;
+} else {
+  return false;
+}
+ 
+}
 
 function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
@@ -82,8 +89,7 @@ function menosQueNoventa(num) {
   // Tu código:
   if (num < 90) {
     return true;
-  }
-  else {
+  } else {
     return false;
   }
   }
@@ -93,11 +99,11 @@ function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num > 50){
-    return true;
-  } else {
-    return false;
-  }
+if (num > 50) {
+  return true;
+}else {
+  return false;
+}
 }
 
 function obtenerResto(x, y) {
@@ -112,7 +118,7 @@ function esPar(num) {
   // Tu código:
   if (num % 2 === 0){
     return true;
-  } else {
+  }else {
     return false;
   }
 }
@@ -121,11 +127,11 @@ function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num % 2 === 1) {
-    return true;
-  } else {
-    return false;
-  }
+if (num % 2 === 1){
+  return true;
+}else {
+  return false;
+}
 }
 
 function elevarAlCuadrado(num) {
@@ -172,15 +178,13 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
-if ( numero === 0){
+if (numero === 0){
   return false;
-}
- else if (numero > 0) {
+} else if (numero > 0) {
   return "Es positivo";
-} 
- else {
+} else {
   return "Es negativo";
- }
+}
 }
 
 
@@ -243,13 +247,14 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
-  if(letra.length > 1){
-    return "Dato incorrecto"
-  }
-  if(letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u"){
-    return "Es vocal"
-  }
-  return "Dato incorrecto" 
+if(letra.length > 1){
+  return "Dato incorrecto";
+}
+if (letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u") {
+  return "Es vocal";
+} else {
+  return "Dato incorrecto";
+}
 }
 
 
